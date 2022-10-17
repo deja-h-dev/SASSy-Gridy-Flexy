@@ -1,14 +1,36 @@
+// fonts
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lato&display=swap');
+$header-font: 'Cutive Mono', monospace;
+$body-font: 'Lato', sans-serif;
 
-// font-family: 'Cutive Mono', monospace;
-// font-family: 'Lato', sans-serif;
+// colors
+$eerie-black: #1C1C1C;
+$platinum: #E6E7E8;
+$citrine: #E4D00A;
+$spanish-bistre: #807613;
+$straw: #E5DC79;
 
 body{
-  background-color: #1c1c1c;
-  color: #e6e7e8;
-  font-family: 'Lato', sans-serif;
+  background-color: $eerie-black;
+  color: $platinum;
+  font-family: $body-font;
 }
 
 h1,h2,h3{
-  font-family: 'Cutive Mono', monospace;
+  font-family: $header-font;
+  color: $citrine;
+}
+
+.first{
+  margin: auto;
+  width: 50%;
+
+  h1,p{text-align: center;}
+
+  p{
+    width: 55%;
+    margin: 1rem auto;
+  }
+
+  border-bottom: 1px solid $spanish-bistre;
 }
