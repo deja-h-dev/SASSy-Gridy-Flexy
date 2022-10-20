@@ -10,17 +10,36 @@ h1, h2, h3 {
   color: #E4D00A;
 }
 
-.first {
+.top {
   margin: auto;
   width: 50%;
   border-bottom: 1px solid #807613;
 }
-.first h1, .first p {
+.top h1, .top p {
   text-align: center;
 }
-.first p {
+.top p {
   width: 55%;
   margin: 1rem auto;
+}
+
+.cards {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #807613;
+}
+.cards h2 {
+  text-align: center;
+}
+.cards .flex {
+  display: flex;
+  justify-content: center;
+}
+.cards div {
+  margin: 1rem 1.5rem;
+}
+.cards div img {
+  height: 200px;
 }
 
 /*# sourceMappingURL=styles.css.map */

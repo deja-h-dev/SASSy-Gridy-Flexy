@@ -21,7 +21,7 @@ h1,h2,h3{
   color: $citrine;
 }
 
-.first{
+.top{
   margin: auto;
   width: 50%;
 
@@ -34,3 +34,29 @@ h1,h2,h3{
 
   border-bottom: 1px solid $spanish-bistre;
 }
+
+.cards{
+  width: 50%;
+  margin: auto;
+  
+  h2{text-align: center;}
+
+  .flex{
+    display: flex;
+    justify-content: center;
+  }
+
+  div{
+    margin: 1rem 1.5rem;
+    img{height: 200px;}
+  }
+
+  border-bottom: 1px solid $spanish-bistre;
+
+}
+
+//heLookUp.jpg Photo by Rainer Eck: https://www.pexels.com/photo/a-close-up-shot-of-a-black-cat-6507587/
+
+//heYell.jpg Photo by Cosmin: https://www.pexels.com/photo/a-close-up-shot-of-a-black-cat-6890852/
+
+//heLookDown.jpg Photo by Rainer Eck: https://www.pexels.com/photo/a-close-up-shot-of-a-black-cat-6507589/
